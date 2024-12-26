@@ -15,4 +15,4 @@ jobs:
       - name: Install staticcheck
         run: go install honnef.co/go/tools/cmd/staticcheck@latest
       - name: Run staticcheck
-        run: staticcheck ./server/api ./server/db ./server/lib ./server/
+        run: staticcheck ./helper
